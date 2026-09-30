@@ -5,7 +5,7 @@
       "name": "Debug (LLDB)",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/build/APCProject",
+      "program": "${workspaceFolder}/build/{{cookiecutter.project_name}}",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,

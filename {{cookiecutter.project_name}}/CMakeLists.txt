@@ -18,7 +18,7 @@ set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD "d0edc3af-4c50-42ea-a356-e2862fe7a444")
 # must be set first to keep its BMI flags consistent with application targets.
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-project(APCProject LANGUAGES CXX)
+project({{cookiecutter.project_name}} LANGUAGES CXX)
 
 # create compile_commands.json for vscode
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
